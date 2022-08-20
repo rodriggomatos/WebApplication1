@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Equipamentos";
+}
+
+<div class="text-center">
+    
+    <div class="d-grid ga d-md-flex justify-content-lg-start">
+        <a class="btn btn-primary" role="button" asp-controller="Equipamento" asp-action="Create" >Adicionar Novo</a>
+    </div>
+
+    <h1 class="display-4">Listagem de Equipamentos</h1>
+
+    <br></br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td >
+                    <a class="link-primary" role="button">Mark</a>
+                </td>
+                <td>Otto</td>
+                <td>mdo</td>
+                <td>
+                    <div class="d-grid gap-2 d-md-block">
+                        <a class="btn btn-primary" role="button">Editar</a>
+                        <a class="btn btn-danger" role="button">Deletar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>fat</td>
+
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry the Bird</td>
+                <td>Larry the Bird</td>
+                <td>twitter</td>
+
+
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+
